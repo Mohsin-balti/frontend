@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Hello from './Hello'
+function App({name,age}) {
   return (
-    <div className="App">
-   <h1>Hello to reat</h1>
+    <div>
+      Hello from App.js updated {name} age ={age}
+      <br/>
+      <Hello fn={name}> </Hello>
     </div>
   );
 }
