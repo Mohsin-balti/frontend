@@ -36,4 +36,4 @@ jobs:
       - name: Install Surge
         run: npm install --global surge
       - name: Deploy to Surge
-        run: surge ./build frontend.surge.sh --token ${{ secrets.Surge_Token }}
+        run: surge ./build khp02.surge.sh --token ${{ secrets.Surge_Token }}
